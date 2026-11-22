@@ -5,7 +5,6 @@ import json, re, warnings
 import numpy as np
 import joblib
 from sklearn.preprocessing import normalize
-
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "04_Experiments" / "results"
 METHODS = ["BM25", "TF-IDF", "LSA", "Fusion pondérée", "RRF", "Reranking"]
